@@ -27,7 +27,8 @@ module.exports = {
         // 推荐 warn
         'max-len': ['warn', { 'code': 200 }],
         'vue/html-quotes': 'warn',
-        "global-require": 0
+        "global-require": 0,
+		"linebreak-style": [0 ,"error", "windows"], 
     },
     parserOptions: {
         parser: 'babel-eslint',

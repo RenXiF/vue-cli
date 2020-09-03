@@ -287,8 +287,12 @@ export default {
 };
 </script>
 <style lang="scss">
+@import '@/assets/style/table.scss';
+
 .three-menu {
-    @import '@/assets/style/table.scss';
+    width: 100%;
+    height: vh(950);
+    overflow: auto;
     // 表头固定时自定义滚动条的样式
     // 滚动条的宽度
     .el-table__body-wrapper::-webkit-scrollbar {
@@ -313,11 +317,4 @@ export default {
     }
 }
 
-</style>
-<style lang='scss' scoped>
-.three-menu {
-    width: 100%;
-    height: vh(950);
-    // overflow: auto;
-}
 </style>
